@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Lost-Stardust/restaurant-page/issues"
   },
-  "homepage": "https://github.com/Lost-Stardust/restaurant-page#readme"
+  "homepage": "https://github.com/Lost-Stardust/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
