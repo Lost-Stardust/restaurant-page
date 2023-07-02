@@ -7,3 +7,12 @@ body {
 #content {
   height: 100%;
 }
+
+.header {
+  margin: 0;
+  background-color: #d90429;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
