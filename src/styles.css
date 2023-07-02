@@ -16,4 +16,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #edf2f4;
+  text-shadow: black 3px 5px;
 }
