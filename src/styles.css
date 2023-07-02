@@ -43,3 +43,9 @@ footer {
   height: 70px;
   align-self: end;
 }
+.dishes {
+  border: solid yellowgreen;
+  grid-column: 1/4;
+  grid-row: 4;
+  margin-left: 20px;
+}
