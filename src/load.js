@@ -17,6 +17,10 @@ const pageLoad = () => {
 
   const footer = document.createElement("footer");
   content.appendChild(footer);
+
+  const dishes = document.createElement("div");
+  dishes.classList.add("dishes");
+  content.appendChild(dishes);
 };
 
 export { pageLoad };
