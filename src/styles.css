@@ -26,3 +26,8 @@ body {
   grid-column: 1/-1;
   align-self: center;
 }
+.desc {
+  grid-column: 1/4;
+  margin-left: 20px;
+  font-size: 18px;
+}
