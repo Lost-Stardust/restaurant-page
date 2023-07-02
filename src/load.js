@@ -14,6 +14,9 @@ const pageLoad = () => {
   const heading2 = document.createElement("h2");
   heading2.textContent = "Popular dishes";
   content.appendChild(heading2);
+
+  const footer = document.createElement("footer");
+  content.appendChild(footer);
 };
 
 export { pageLoad };
