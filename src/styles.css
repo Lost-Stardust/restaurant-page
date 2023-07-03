@@ -73,6 +73,7 @@ h2 {
   border: solid #8d99ae;
   border-radius: 5px;
   width: 180px;
+  background-position: center;
 }
 .img2 {
   height: 100%;
@@ -82,4 +83,5 @@ h2 {
   border: solid #8d99ae;
   border-radius: 5px;
   width: 180px;
+  background-position: center;
 }
