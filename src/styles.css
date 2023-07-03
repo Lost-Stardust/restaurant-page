@@ -119,3 +119,14 @@ a:hover {
   transform: translate(0px, -18px);
   cursor: pointer;
 }
+nav {
+  border: solid black;
+  grid-column: 6;
+  grid-row: 2/4;
+  justify-self: center;
+  width: 100px;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
