@@ -150,3 +150,15 @@ nav > button {
   border-bottom-right-radius: 50px;
   border: none;
 }
+.nav0:hover {
+  background: #d90429;
+  color: #edf2f4;
+}
+.nav1:hover {
+  background: #d90429;
+  color: #edf2f4;
+}
+.nav2:hover {
+  background: #d90429;
+  color: #edf2f4;
+}
