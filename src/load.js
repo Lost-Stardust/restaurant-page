@@ -52,6 +52,18 @@ const pageLoad = () => {
   dish0.appendChild(link0);
   dish1.appendChild(link1);
   dish2.appendChild(link2);
+
+  img0.addEventListener("click", () => {
+    window.open("https://belleofthekitchen.com/chili-cheese-fries-recipe/");
+  });
+  img1.addEventListener("click", () => {
+    window.open("https://sweetcaramelsunday.com/mexican-fries/");
+  });
+  img2.addEventListener("click", () => {
+    window.open(
+      "https://www.kitchensanctuary.com/pizza-fries/?utm_source=pinterest&utm_medium=social&utm_campaign=social-pug"
+    );
+  });
 };
 
 export { pageLoad };
