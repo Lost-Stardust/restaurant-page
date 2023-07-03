@@ -47,13 +47,13 @@ h2 {
   align-items: center;
 }
 .dishes > div {
-  border: solid blueviolet;
   width: 100%;
   height: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .img0 {
   height: 100%;
