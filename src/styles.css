@@ -38,9 +38,8 @@ h2 {
   align-self: end;
 }
 .dishes {
-  border: solid yellowgreen;
   grid-column: 1/4;
-  grid-row: 4;
+  grid-row: 4/6;
   margin-left: 20px;
 
   display: flex;
