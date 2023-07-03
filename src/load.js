@@ -18,6 +18,16 @@ const pageLoad = () => {
   const dishes = document.createElement("div");
   dishes.classList.add("dishes");
   content.appendChild(dishes);
+
+  const dish0 = document.createElement("div");
+  const dish1 = document.createElement("div");
+  const dish2 = document.createElement("div");
+  dish0.classList.add("0");
+  dish1.classList.add("1");
+  dish2.classList.add("2");
+  dishes.appendChild(dish0);
+  dishes.appendChild(dish1);
+  dishes.appendChild(dish2);
 };
 
 export { pageLoad };
