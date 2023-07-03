@@ -38,6 +38,20 @@ const pageLoad = () => {
   const img2 = document.createElement("div");
   img2.classList.add("img2");
   dish2.appendChild(img2);
+
+  const link0 = document.createElement("a");
+  const link1 = document.createElement("a");
+  const link2 = document.createElement("a");
+  link0.textContent = "Chili Cheese Fries";
+  link1.textContent = "Mexican loaded Fries";
+  link2.textContent = "Pizza Fries";
+  link0.href = "https://bottomleftofthemitten.com/chili-cheese-fries/";
+  link1.href = "https://sweetcaramelsunday.com/mexican-fries/";
+  link2.href =
+    "https://www.kitchensanctuary.com/pizza-fries/?utm_source=pinterest&utm_medium=social&utm_campaign=social-pug";
+  dish0.appendChild(link0);
+  dish1.appendChild(link1);
+  dish2.appendChild(link2);
 };
 
 export { pageLoad };
