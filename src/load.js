@@ -32,6 +32,12 @@ const pageLoad = () => {
   const img0 = document.createElement("div");
   img0.classList.add("img0");
   dish0.appendChild(img0);
+  const img1 = document.createElement("div");
+  img1.classList.add("img1");
+  dish1.appendChild(img1);
+  const img2 = document.createElement("div");
+  img2.classList.add("img2");
+  dish2.appendChild(img2);
 };
 
 export { pageLoad };
