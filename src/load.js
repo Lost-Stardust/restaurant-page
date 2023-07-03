@@ -45,7 +45,7 @@ const pageLoad = () => {
   link0.textContent = "Chili Cheese Fries";
   link1.textContent = "Mexican loaded Fries";
   link2.textContent = "Pizza Fries";
-  link0.href = "https://bottomleftofthemitten.com/chili-cheese-fries/";
+  link0.href = "https://belleofthekitchen.com/chili-cheese-fries-recipe/";
   link1.href = "https://sweetcaramelsunday.com/mexican-fries/";
   link2.href =
     "https://www.kitchensanctuary.com/pizza-fries/?utm_source=pinterest&utm_medium=social&utm_campaign=social-pug";
