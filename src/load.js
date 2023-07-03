@@ -76,6 +76,10 @@ const pageLoad = () => {
   nav1.textContent = "Menu";
   nav2.textContent = "Contact us";
 
+  nav0.classList.add("nav0");
+  nav1.classList.add("nav1");
+  nav2.classList.add("nav2");
+
   nav.appendChild(nav0);
   nav.appendChild(nav1);
   nav.appendChild(nav2);
