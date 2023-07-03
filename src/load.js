@@ -67,6 +67,18 @@ const pageLoad = () => {
 
   const nav = document.createElement("nav");
   content.appendChild(nav);
+
+  const nav0 = document.createElement("button");
+  const nav1 = document.createElement("button");
+  const nav2 = document.createElement("button");
+
+  nav0.textContent = "Home";
+  nav1.textContent = "Menu";
+  nav2.textContent = "Contact us";
+
+  nav.appendChild(nav0);
+  nav.appendChild(nav1);
+  nav.appendChild(nav2);
 };
 
 export { pageLoad };
