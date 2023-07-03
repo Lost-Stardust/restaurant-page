@@ -28,6 +28,10 @@ const pageLoad = () => {
   dishes.appendChild(dish0);
   dishes.appendChild(dish1);
   dishes.appendChild(dish2);
+
+  const img0 = document.createElement("div");
+  img0.classList.add("img0");
+  dish0.appendChild(img0);
 };
 
 export { pageLoad };
