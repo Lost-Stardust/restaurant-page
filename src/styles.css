@@ -68,6 +68,7 @@ h2 {
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  transition: all 400ms ease-in-out;
 }
 .img1 {
   height: 100%;
@@ -80,6 +81,7 @@ h2 {
   height: 180px;
   background-position: center;
   border-radius: 50%;
+  transition: all 400ms ease-in-out;
 }
 .img2 {
   height: 100%;
@@ -92,6 +94,7 @@ h2 {
   height: 180px;
   background-position: center;
   border-radius: 50%;
+  transition: all 400ms ease-in-out;
 }
 a:link {
   color: #d90429;
@@ -102,4 +105,13 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+.img0:hover {
+  transform: translate(0px, -18px);
+}
+.img1:hover {
+  transform: translate(0px, -18px);
+}
+.img2:hover {
+  transform: translate(0px, -18px);
 }
