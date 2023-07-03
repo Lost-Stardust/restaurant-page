@@ -109,10 +109,13 @@ a:hover {
 }
 .img0:hover {
   transform: translate(0px, -18px);
+  cursor: pointer;
 }
 .img1:hover {
   transform: translate(0px, -18px);
+  cursor: pointer;
 }
 .img2:hover {
   transform: translate(0px, -18px);
+  cursor: pointer;
 }
