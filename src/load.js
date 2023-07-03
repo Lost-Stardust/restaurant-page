@@ -64,6 +64,9 @@ const pageLoad = () => {
       "https://www.kitchensanctuary.com/pizza-fries/?utm_source=pinterest&utm_medium=social&utm_campaign=social-pug"
     );
   });
+
+  const nav = document.createElement("nav");
+  content.appendChild(nav);
 };
 
 export { pageLoad };
