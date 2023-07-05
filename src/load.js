@@ -2,10 +2,10 @@ const pageLoad = () => {
   // Create content div
   // create and append header to content
   const content = document.querySelector("#content");
-  const heading = document.createElement("h1");
-  heading.classList.add("header");
-  heading.textContent = "Fries n' Thighs";
-  content.appendChild(heading);
+  const header = document.createElement("h1");
+  header.classList.add("header");
+  header.textContent = "Fries n' Thighs";
+  content.appendChild(header);
 
   // Create and append restaurant description
   const desc = document.createElement("p");
