@@ -4,7 +4,7 @@ const pageLoad = () => {
   const content = document.querySelector("#content");
   const header = document.createElement("h1");
   header.classList.add("header");
-  header.textContent = "Fries n' Thighs";
+
   content.appendChild(header);
 
   // Create and append restaurant description
@@ -78,11 +78,11 @@ const pageLoad = () => {
 
   // Create nav
   const nav = document.createElement("nav");
-  content.appendChild(nav);
+  header.appendChild(nav);
 
-  const nav0 = document.createElement("button");
-  const nav1 = document.createElement("button");
-  const nav2 = document.createElement("button");
+  const nav0 = document.createElement("p");
+  const nav1 = document.createElement("p");
+  const nav2 = document.createElement("p");
 
   nav0.textContent = "Home";
   nav1.textContent = "Menu";
