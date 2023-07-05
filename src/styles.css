@@ -125,14 +125,11 @@ nav {
   justify-content: space-around;
 }
 .nav0:hover {
-  background: #d90429;
-  color: #edf2f4;
+  cursor: pointer;
 }
 .nav1:hover {
-  background: #d90429;
-  color: #edf2f4;
+  cursor: pointer;
 }
 .nav2:hover {
-  background: #d90429;
-  color: #edf2f4;
+  cursor: pointer;
 }
