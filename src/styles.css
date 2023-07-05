@@ -19,7 +19,7 @@ body {
 .header {
   margin: 0;
   background-color: #d90429;
-  height: 65px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
