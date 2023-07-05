@@ -28,7 +28,6 @@ body {
 
   grid-column: 1/-1;
   align-self: center;
-  font-family: "Permanent Marker", cursive;
 }
 .desc {
   grid-column: 1/4;
@@ -120,7 +119,8 @@ a:hover {
   cursor: pointer;
 }
 nav {
-  border: solid black;
+  display: flex;
+  /* border: solid black;
   grid-column: 6;
   grid-row: 2/4;
   justify-self: center;
@@ -131,9 +131,9 @@ nav {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: 1fr;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 }
-nav > button {
+/* nav > button {
   font-family: "Belanosima", sans-serif;
   background-color: #edf2f4;
   border: none;
@@ -141,8 +141,8 @@ nav > button {
   width: 100%;
   height: 100%;
   font-size: 18px;
-}
-.nav0 {
+} */
+/* .nav0 {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
 }
@@ -150,7 +150,7 @@ nav > button {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border: none;
-}
+} */
 .nav0:hover {
   background: #d90429;
   color: #edf2f4;
