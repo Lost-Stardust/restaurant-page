@@ -2,9 +2,7 @@ const pageLoad = () => {
   // Create content div
   // create and append header to content
   const content = document.querySelector("#content");
-  const header = document.createElement("h1");
-  header.classList.add("header");
-
+  const header = document.createElement("header");
   content.appendChild(header);
 
   // Create and append restaurant description
