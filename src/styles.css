@@ -19,7 +19,7 @@ body {
   background: url("https://images.unsplash.com/photo-1600339240932-226cff938b4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")
     no-repeat center/100%;
   grid-column: 1/-1;
-  grid-row: 1/6;
+  grid-row: 1/7;
   display: grid;
   grid-template-rows: repeat(5, 1fr);
 }
