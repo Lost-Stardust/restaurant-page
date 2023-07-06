@@ -16,15 +16,14 @@ body {
   grid-template-rows: repeat(6, 1fr);
 }
 
-.header {
+header {
   margin: 0;
-  background-color: #d90429;
+  background-color: rgba(217, 4, 39);
   height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #edf2f4;
-  text-shadow: black 3px 5px;
 
   grid-column: 1/-1;
   align-self: center;
