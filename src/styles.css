@@ -32,6 +32,8 @@ header {
   grid-column: 1/4;
   margin-left: 20px;
   font-size: 18px;
+
+  display: none;
 }
 h2 {
   grid-row: 3;
@@ -39,6 +41,8 @@ h2 {
   justify-self: center;
   align-self: end;
   font-family: "Lobster", cursive;
+
+  display: none;
 }
 .dishes {
   grid-column: 1/4;
@@ -46,6 +50,8 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  display: none;
 }
 .dishes > div {
   width: 100%;
