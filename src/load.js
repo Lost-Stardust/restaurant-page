@@ -1,9 +1,15 @@
 const pageLoad = () => {
   // Create content div
-  // create and append header to content
+  // create and append header to img div
   const content = document.querySelector("#content");
+
+  // Create div for background
+  const img = document.createElement("div");
+  img.className = "img";
+  content.appendChild(img);
+
   const header = document.createElement("header");
-  content.appendChild(header);
+  img.appendChild(header);
 
   // Create and append restaurant description
   const desc = document.createElement("p");
