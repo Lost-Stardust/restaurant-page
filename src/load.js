@@ -8,11 +8,16 @@ const pageLoad = () => {
   const header = document.createElement("header");
   body.insertBefore(header, content);
 
+  // logo container
+  const logoContainer = document.createElement("div");
+  logoContainer.className = "logo-container";
+  header.appendChild(logoContainer);
+
   // logo
   let logo = document.createElement("h2");
   logo.textContent = "Sizzle joint";
   logo.className = "logo";
-  header.appendChild(logo);
+  logoContainer.appendChild(logo);
 
   // tab container
   const tabContainer = document.createElement("div");
