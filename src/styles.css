@@ -10,6 +10,10 @@ header {
   width: 100%;
   height: 60px;
 }
+.logo {
+  color: #fca311;
+  margin: 0;
+}
 #content {
   background-color: rgb(202, 201, 200);
   width: 100%;
