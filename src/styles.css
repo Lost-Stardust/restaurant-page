@@ -29,7 +29,6 @@ header {
   margin: 0;
 }
 .tab-container {
-  border: solid 1px red;
   color: white;
   display: flex;
   flex-grow: 0.3;
