@@ -1,3 +1,4 @@
+import Icon from "./burger.png";
 const pageLoad = () => {
   const body = document.querySelector("body");
 
@@ -12,6 +13,12 @@ const pageLoad = () => {
   const logoContainer = document.createElement("div");
   logoContainer.className = "logo-container";
   header.appendChild(logoContainer);
+
+  // Icon
+  const myIcon = new Image();
+  myIcon.src = Icon;
+  myIcon.className = "icon";
+  logoContainer.appendChild(myIcon);
 
   // logo
   let logo = document.createElement("h2");
