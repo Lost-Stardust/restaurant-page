@@ -13,6 +13,11 @@ header {
   display: flex;
   align-items: center;
 }
+.logo-container {
+  margin-left: 10px;
+  display: flex;
+  flex-grow: 0.7;
+}
 .logo {
   color: #fca311;
   margin: 0;
