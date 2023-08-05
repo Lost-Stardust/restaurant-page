@@ -41,6 +41,10 @@ const pageLoad = () => {
   tab1.textContent = "Home";
   tab2.textContent = "Menu";
   tab3.textContent = "Contact";
+  let tabs = [tab1, tab2, tab3];
+  for (let i = 0; i < tabs.length; i++) {
+    tabs[i].className = "tab";
+  }
 };
 
 export { pageLoad };
