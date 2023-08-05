@@ -34,6 +34,28 @@ header {
   flex-grow: 0.3;
   justify-content: space-around;
 }
+.tab {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  padding-bottom: 2px;
+}
+.tab::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: #fca311;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.tab:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 #content {
   background-color: rgb(202, 201, 200);
   width: 100%;
