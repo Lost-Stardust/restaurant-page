@@ -57,6 +57,9 @@ header {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+.tab:hover {
+  cursor: pointer;
+}
 #content {
   background-color: rgb(202, 201, 200);
   width: 100%;
