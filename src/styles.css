@@ -73,7 +73,19 @@ header {
   width: 550px;
   grid-column: 4;
   position: relative;
-  top: 30px;
-  right: 30px;
+  top: 40px;
+  right: 60px;
   border-radius: 4px;
+  z-index: 1;
+}
+.img-border {
+  width: 550px;
+  height: 350px;
+  grid-column: 4;
+  position: relative;
+  top: -280px;
+  right: 30px;
+  border: solid 2px #3390a0;
+  border-radius: 4px;
+  z-index: 0;
 }
