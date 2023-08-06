@@ -27,6 +27,7 @@ header {
 .logo {
   color: #fca311;
   margin: 0;
+  font-size: 25px;
 }
 .tab-container {
   color: white;
