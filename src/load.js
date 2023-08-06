@@ -52,6 +52,9 @@ const pageLoad = () => {
     "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
   img.className = "content-img";
   content.appendChild(img);
+  const imgBorder = document.createElement("div");
+  imgBorder.className = "img-border";
+  content.appendChild(imgBorder);
 };
 
 export { pageLoad };
