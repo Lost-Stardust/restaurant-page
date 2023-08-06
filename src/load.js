@@ -45,6 +45,13 @@ const pageLoad = () => {
   for (let i = 0; i < tabs.length; i++) {
     tabs[i].className = "tab";
   }
+
+  // image in content
+  const img = document.createElement("img");
+  img.src =
+    "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  img.className = "content-img";
+  content.appendChild(img);
 };
 
 export { pageLoad };
