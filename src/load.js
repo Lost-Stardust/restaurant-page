@@ -76,6 +76,17 @@ const pageLoad = () => {
   const reviewBox = document.createElement("div");
   reviewBox.className = "review-box";
   content.appendChild(reviewBox);
+
+  const reviewer = document.createElement("h4");
+  reviewer.className = "reviewer";
+  reviewer.textContent = "Burger King -";
+  reviewBox.appendChild(reviewer);
+
+  const review = document.createElement("p");
+  review.className = "review";
+  review.textContent =
+    '"Impressed by Sizzle Joint! Delicious burgers, great service. Highly recommended for burger lovers."';
+  reviewBox.appendChild(review);
 };
 
 export { pageLoad };
