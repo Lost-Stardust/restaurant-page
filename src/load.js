@@ -71,6 +71,11 @@ const pageLoad = () => {
     "Welcome to Sizzle Joint, the ultimate burger destination. Our menu offers a wide range of mouthwatering burgers made with the finest ingredients. From classic cheeseburgers to gourmet creations, there's something for everyone. Pair your burger with crispy fries or indulge in hand-spun milkshakes. Each burger is made with the finest ingredients, ensuring a delicious and flavorful experience with every bite. Whether you prefer a traditional beef patty or something more adventurous like a chicken or veggie option, Sizzle Joint has something for everyone. Visit us today and experience the sizzling goodness of Sizzle Joint!";
   descContainer.appendChild(desc);
   desc.className = "desc";
+
+  //create customer review
+  const reviewBox = document.createElement("div");
+  reviewBox.className = "review-box";
+  content.appendChild(reviewBox);
 };
 
 export { pageLoad };
