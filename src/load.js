@@ -87,6 +87,13 @@ const pageLoad = () => {
   review.textContent =
     '"Impressed by Sizzle Joint! Delicious burgers, great service. Highly recommended for burger lovers."';
   reviewBox.appendChild(review);
+
+  // footer
+  const footer = document.createElement("footer");
+  const footerText = document.createElement("p");
+  footerText.textContent = "Copyright @TheOdinProject2023";
+  footer.appendChild(footerText);
+  content.appendChild(footer);
 };
 
 export { pageLoad };
