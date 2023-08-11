@@ -90,10 +90,11 @@ const pageLoad = () => {
 
   // footer
   const footer = document.createElement("footer");
+  content.appendChild(footer);
+
   const footerText = document.createElement("p");
   footerText.textContent = "Copyright @TheOdinProject2023";
   footer.appendChild(footerText);
-  content.appendChild(footer);
 
   const iconLink = document.createElement("a");
   iconLink.href = "https://www.flaticon.com/free-icons/burger";
