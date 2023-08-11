@@ -92,6 +92,12 @@ const pageLoad = () => {
   const footer = document.createElement("footer");
   content.appendChild(footer);
 
+  const imgLink = document.createElement("a");
+  imgLink.href =
+    "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  imgLink.textContent = "Image";
+  footer.appendChild(imgLink);
+
   const footerText = document.createElement("p");
   footerText.textContent = "Copyright @TheOdinProject2023";
   footer.appendChild(footerText);
