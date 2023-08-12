@@ -1,3 +1,3 @@
 import "./styles.css";
-import { pageLoad } from "./load.js";
-pageLoad();
+import { loadHome } from "./home.js";
+loadHome();
