@@ -1,5 +1,5 @@
 import Icon from "./burger.png";
-const pageLoad = () => {
+const loadHome = () => {
   const body = document.querySelector("body");
 
   const content = document.querySelector("#content");
@@ -108,4 +108,4 @@ const pageLoad = () => {
   footer.appendChild(iconLink);
 };
 
-export { pageLoad };
+export { loadHome };
