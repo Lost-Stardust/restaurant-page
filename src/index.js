@@ -1,5 +1,6 @@
 import "./styles.css";
 import { loadHome } from "./home.js";
+import { loadMenu } from "./menu.js";
 import Icon from "./burger.png";
 
 const body = document.querySelector("body");
