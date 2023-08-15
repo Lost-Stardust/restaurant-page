@@ -3,6 +3,9 @@ const loadMenu = () => {
   const content = document.querySelector("#content");
   content.replaceChildren();
 
+  // Add a class to content for changing grid layout
+  content.className = "menu";
+
   // create divs for menu items
   const items = [];
   let n = 0;
