@@ -5,6 +5,8 @@ const loadHome = () => {
   const content = document.querySelector("#content");
   console.log(content);
 
+  content.classList.remove("menu");
+
   // //   create and append header to body
   // const header = document.createElement("header");
   // body.insertBefore(header, content);
