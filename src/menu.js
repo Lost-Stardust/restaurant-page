@@ -13,6 +13,9 @@ const loadMenu = () => {
     items[i] = document.createElement("div");
     items[i].className = "item" + ++n;
     console.log(items);
+    content.appendChild(items[i]);
+    let img = document.createElement("img");
+    items[i].appendChild(img);
   }
 };
 export { loadMenu };
