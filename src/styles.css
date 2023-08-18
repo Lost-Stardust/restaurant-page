@@ -149,8 +149,41 @@ a {
   background-color: rgb(202, 201, 200);
   width: 100%;
   height: 100%;
+  overflow: auto;
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
+}
+body {
+  overflow: hidden;
+}
+#content.menu > div > img {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+.item1 > img {
+  background: url("https://www.foodandwine.com/thmb/efwfx4myaNSL881o4Pxe2ykuIRk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/original-200906-HD-cheddar-blt-f64b1beb8c4c4f078b360b7ee28c9a1e.jpg");
+}
+.item2 > img {
+  background: url("https://www.foodandwine.com/thmb/hWjIzRPDLKCbV28c6LMM40nPZiw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201202-r-asian-style-pork-burgers-b944edc141094785bf9e7bb32364f898.jpg");
+}
+.item3 > img {
+  background-image: url("https://www.foodandwine.com/thmb/hWjIzRPDLKCbV28c6LMM40nPZiw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201202-r-asian-style-pork-burgers-b944edc141094785bf9e7bb32364f898.jpg");
+}
+.item4 > img {
+  background-image: url("https://www.foodandwine.com/thmb/GQg7INoiZq92KmWbfH_bgPqgU80=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201106-r-cheddar-onion-burger-0b10de9034c54072aedc18a4ced0284d.jpg");
+}
+.item5 > img {
+  background-image: url("https://www.foodandwine.com/thmb/jx8034sl-WMfwvDC2vWxVeviUgI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-2010-r-cocktails-minetta-burger-c90cfc04fd8c43c699892984f294817f.jpg");
+}
+.item6 > img {
+  background-image: url("https://www.foodandwine.com/thmb/CpKX792b50yNBNm841S-6aWrvo8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201201-r-nacho-burger-4f10ae6f3d6c44adb5303ab34d5e60c7.jpg");
+}
+.item7 > img {
+  background-image: url("https://www.foodandwine.com/thmb/LxAno1mML-FIZ_UP7DtOEhVdAwQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201106-r-unami-burger-85167ab58ec94767884fa1b34f98bf04.jpg");
+}
+.item8 > img {
+  background-image: url("https://www.foodandwine.com/thmb/jvmlB_zJdDxvlWBBZg0iCLkYa_M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201208-HD-caprese-burgers-5801d232e86945d899406389b0014acb.jpg");
 }
