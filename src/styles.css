@@ -153,11 +153,17 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
+
+  justify-items: center;
+  align-items: center;
 }
 #content.menu > div > img {
   background-size: cover;
   height: 200px;
   width: 200px;
+}
+.heading {
+  text-decoration: underline;
 }
 .item1 > img {
   background: url("https://www.foodandwine.com/thmb/efwfx4myaNSL881o4Pxe2ykuIRk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/original-200906-HD-cheddar-blt-f64b1beb8c4c4f078b360b7ee28c9a1e.jpg");
