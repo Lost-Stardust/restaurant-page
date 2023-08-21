@@ -172,7 +172,8 @@ a {
   background: url("https://www.foodandwine.com/thmb/hWjIzRPDLKCbV28c6LMM40nPZiw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201202-r-asian-style-pork-burgers-b944edc141094785bf9e7bb32364f898.jpg");
 }
 .item3 > img {
-  background-image: url("https://www.foodandwine.com/thmb/hWjIzRPDLKCbV28c6LMM40nPZiw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201202-r-asian-style-pork-burgers-b944edc141094785bf9e7bb32364f898.jpg");
+  background-image: url("https://www.foodandwine.com/thmb/h_oC7W8DwN9MaFBut-KbnMwhepE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/japanese-style-chili-burgers-with-yuzu-mayo-FT-RECIPE0620-2f8384135fc042e79cc256d17ad672f9.jpg");
+  background-position-x: center;
 }
 .item4 > img {
   background-image: url("https://www.foodandwine.com/thmb/GQg7INoiZq92KmWbfH_bgPqgU80=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HD-201106-r-cheddar-onion-burger-0b10de9034c54072aedc18a4ced0284d.jpg");
