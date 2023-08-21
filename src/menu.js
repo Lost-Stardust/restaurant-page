@@ -22,5 +22,18 @@ const loadMenu = () => {
     let img = document.createElement("img");
     items[i].appendChild(img);
   }
+
+  // Add a heading and description for each dish
+  items.forEach((div) => {
+    let infoContainer = document.createElement("div");
+    let itemName = document.createElement("h2");
+    let itemDesc = document.createElement("p");
+
+    infoContainer.className = "info-container";
+
+    div.appendChild(infoContainer);
+    infoContainer.appendChild(itemName);
+    infoContainer.appendChild(itemDesc);
+  });
 };
 export { loadMenu };
