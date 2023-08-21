@@ -6,6 +6,11 @@ const loadMenu = () => {
   // Add a class to content for changing grid layout
   content.className = "menu";
 
+  const heading = document.createElement("h1");
+  heading.className = "heading";
+  heading.textContent = "Menu items";
+  content.appendChild(heading);
+
   // create divs for menu items
   const items = [];
   let n = 0;
