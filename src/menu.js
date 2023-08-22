@@ -69,5 +69,25 @@ const loadMenu = () => {
     itemNames[i].textContent = itemNameContents[i];
     itemDescs[i].textContent = itemDescContents[i];
   }
+
+  // footer
+  const footer = document.createElement("footer");
+  content.appendChild(footer);
+  footer.className = "menu";
+
+  const imgLink = document.createElement("a");
+  imgLink.href =
+    "https://www.foodandwine.com/comfort-food/burgers/burger-recipes";
+  imgLink.textContent = "recipes/images by Food&Wine";
+  footer.appendChild(imgLink);
+
+  const footerText = document.createElement("p");
+  footerText.textContent = "Copyright @TheOdinProject2023";
+  footer.appendChild(footerText);
+
+  const iconLink = document.createElement("a");
+  iconLink.href = "https://www.flaticon.com/free-icons/burger";
+  iconLink.textContent = "Logo";
+  footer.appendChild(iconLink);
 };
 export { loadMenu };
