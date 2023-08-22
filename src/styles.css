@@ -209,3 +209,7 @@ a {
 .info-container {
   max-width: 33vw;
 }
+footer.menu {
+  grid-row: 10;
+  grid-column: auto;
+}
