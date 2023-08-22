@@ -156,11 +156,15 @@ a {
 
   justify-items: center;
   align-items: center;
+  gap: 40px;
 }
 #content.menu > div > img {
   background-size: cover;
   height: 200px;
   width: 200px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  align-self: center;
 }
 .heading {
   text-decoration: underline;
@@ -189,4 +193,13 @@ a {
 }
 .item8 > img {
   background-image: url("https://www.foodandwine.com/thmb/jvmlB_zJdDxvlWBBZg0iCLkYa_M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/201208-HD-caprese-burgers-5801d232e86945d899406389b0014acb.jpg");
+}
+#content.menu > div {
+  display: flex;
+  width: 50vw;
+  height: 200px;
+  border-radius: 7px;
+  background: #14213d;
+  color: white;
+  gap: 25px;
 }
