@@ -30,10 +30,30 @@ const loadMenu = () => {
     let itemDesc = document.createElement("p");
 
     infoContainer.className = "info-container";
+    itemName.className = "item-name";
 
     div.appendChild(infoContainer);
     infoContainer.appendChild(itemName);
     infoContainer.appendChild(itemDesc);
   });
+
+  // Array that will store the textContent for each itemName in items
+  const itemNameContents = [
+    "Cheddar BLT Burger",
+    "Ginger-Sesame Pork Burger",
+    "Japanese-Style Chili Burger",
+    "Cheddar-and-Onion Burger",
+    "Minetta Burger",
+    "Nacho Burgers",
+    "Umami Burger",
+    "Caprese Burger",
+  ];
+
+  // loop that will affix the entries of itemNameContents to each itemName in order
+  const itemNames = document.querySelectorAll(".item-name");
+
+  for (let i = 0; i < itemNames.length; i++) {
+    itemNames[i].textContent = itemNameContents[i];
+  }
 };
 export { loadMenu };
