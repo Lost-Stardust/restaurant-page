@@ -206,3 +206,6 @@ a {
 .item-name {
   color: #fca311;
 }
+.info-container {
+  max-width: 33vw;
+}
