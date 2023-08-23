@@ -66,25 +66,31 @@ function Contact() {
 tab1.classList.add("active");
 
 // home tab
-if (!tab1.classList.contains("active")) {
-  tab1.addEventListener("click", Home);
-}
-if (tab1.classList.contains("active")) {
-  tab1.removeEventListener("click", Home);
-}
+tab1.addEventListener("click", () => {
+  if (!tab1.classList.contains("active")) {
+    tab2.classList.remove("active");
+    tab3.classList.remove("active");
+    tab1.classList.add("active");
+    Home();
+  }
+});
 
 // menu tab
-if (!tab2.classList.contains("active")) {
-  tab2.addEventListener("click", Menu);
-}
-if (tab2.classList.contains("active")) {
-  tab2.removeEventListener("click", Menu);
-}
+tab2.addEventListener("click", () => {
+  if (!tab2.classList.contains("active")) {
+    tab1.classList.remove("active");
+    tab3.classList.remove("active");
+    tab2.classList.add("active");
+    Menu();
+  }
+});
 
 // contact tab
-if (!tab3.classList.contains("active")) {
-  tab3.addEventListener("click", Contact);
-}
-if (tab3.classList.contains("active")) {
-  tab3.removeEventListener("click", Contact);
-}
+tab3.addEventListener("click", () => {
+  if (!tab3.classList.contains("active")) {
+    tab1.classList.remove("active");
+    tab2.classList.remove("active");
+    tab3.classList.add("active");
+    Contact();
+  }
+});
