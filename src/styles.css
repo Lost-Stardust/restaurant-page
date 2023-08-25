@@ -229,3 +229,7 @@ footer.menu {
 .info {
   font-size: x-large;
 }
+footer.contact {
+  grid-row: -1;
+  grid-column: 1;
+}
