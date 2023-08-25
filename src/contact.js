@@ -21,5 +21,14 @@ const loadContact = () => {
 
   info.appendChild(num);
   info.appendChild(email);
+
+  // footer
+  const footer = document.createElement("footer");
+  content.appendChild(footer);
+  footer.className = "contact";
+
+  const footerText = document.createElement("p");
+  footerText.textContent = "Copyright @TheOdinProject2023";
+  footer.appendChild(footerText);
 };
 export { loadContact };
