@@ -220,3 +220,7 @@ footer.menu {
   box-shadow: 0px 26px 38px -20px rgba(0, 0, 0, 0.75);
   transform: translateX(10px) translateY(-10px);
 }
+/* styles for content in the contact tab */
+#content.contact {
+  grid-template-rows: repeat(4, 1fr);
+}
