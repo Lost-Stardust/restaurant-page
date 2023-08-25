@@ -6,6 +6,7 @@ const loadHome = () => {
   console.log(content);
 
   content.classList.remove("menu");
+  content.classList.remove("contact");
   content.replaceChildren();
 
   // image in content
