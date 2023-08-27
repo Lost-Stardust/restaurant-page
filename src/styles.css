@@ -225,6 +225,7 @@ footer.menu {
   grid-template-rows: 0.5fr repeat(3, 1fr);
   grid-template-columns: 1fr;
   justify-items: center;
+  height: 92%;
 }
 .info {
   font-size: x-large;
